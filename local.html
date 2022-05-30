@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/custom3.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+<section class="lateral">
+        <div class="perfil">
+            <figure class="perfil__circulo">
+                <img src="img/foto_giancarlo.jpg" alt="" class="perfil__foto">
+
+            </figure>   
+            <h1 class="perfil__nombres">
+                Giancarlo Adonay Cifuentes Loarca
+            </h1>
+        </div>
+
+        <div class="informacion">
+            <h2 class="informacion__titulo">
+                Desarrollador
+            </h2>
+            <p class="informacion__descripcion">Este portafolio contiene proyectos realizados por <strong>"Giancarlo Adonay Cifuetes Loarca"</strong></p>
+
+            <ul class="habilidades">
+                <li class="habilidad">JavaScript</li>
+                <li class="habilidad">Node Js</li>
+                <li class="habilidad">HTML y CSS</li>
+                <li  class="habilidad"><a id="links" href="index.html">Regresar a Proyectos.</a></li>
+                </ul>
+        </div>
+
+    </section>
+
+    <section class="proyectos">
+        <article class="proyecto">
+    <div id="contenido">
+        <div class="container">
+
+            <h1>Local Storage</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="tweet">Tweet:</label>
+                    <form  id="formulario">
+                            <label for="tweet"></label>
+                            <textarea id="tweet" class="u-full-width"></textarea>
+                            <input type="submit" class="button u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2>Mis Tweets</h2>
+                    <div id="lista-tweets"></div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+</article>
+</section>
+    <script src="js/app4.js"></script>
+</body>
+</html>
